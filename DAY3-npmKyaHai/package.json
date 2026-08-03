@@ -1,12 +1,17 @@
 {
-  "name": "day2_nodejs_basics",
+  "name": "day3",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "file.js",
+  "main": "npm.js",
   "scripts": {
+    "start": "node ./npm1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
   }
 }
