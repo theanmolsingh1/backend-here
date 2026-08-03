@@ -1,0 +1,12 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Anmol Singh",
+  "type": "commonjs",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
