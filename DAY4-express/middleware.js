@@ -7,13 +7,13 @@
 const express = require("express");
 const app = express();
 
-function logger(req, res, next) {
+
+//middleware-> it uses "use" to init middleware.
+app.use((req, res, next)=>{
     console.log("Request received");
     next();
-}
+});
 
-//middleware->
-app.use(logger);
 
 //route->
 app.get("/", (req, res) => {
